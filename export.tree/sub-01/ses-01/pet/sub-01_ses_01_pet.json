@@ -1,0 +1,80 @@
+{ 
+  "Info": {
+    "Tomograph": ["HRRT"],
+    "BodyPart": ["brain"],
+    "Unit": ["Bq/ml"],
+    "Tracer": {
+      "MW": [],
+      "InjectionType": ["bolus"],
+      "Isotope": ["C-11"],
+      "Name": ["[C-11]DASB"],
+    }
+  },
+  "RadioChem": {
+    "InjectedRadioactivityUnits": ["MBq"],
+    "InjectedMassUnits": ["ug"],
+    "SpecificRadioactivityUnits": ["GBq/umol"],
+    "InjectedRadioactivity": [5.981810e+02],
+    "InjectedMass": [7.116001e-01],
+    "SpecificRadioactivity": [2.382300e+02]
+  },
+  "Recon": {
+    "DiameterFOV": [3.120000e+01],
+    "ReconMatrixSize": [256, 256],
+    "PSF": {
+      "EffectiveResolutionInPlane": [1.218750e-01],
+      "EffectiveResolutionAxial": [1.218750e-01],
+    }
+    "Method": {
+      "Name": ["inki-2006-may-OSEM3D-OP-PSF"],
+      "Parameter": {
+        "Parameter": ["subsets","iterations"],
+        "Labels": ["subsets","iterations"],
+        "Units": ["none","none"],
+        "Values": [16, 10],
+      }
+    }
+  },
+  "Time": {
+    "ScanStart": ["10:33:47"],
+    "ScanStartUnits": ["hh:mm:ss"],
+    "FrameTimes": {
+      "Labels": ["frameStart", "frameEnd"],
+      "Units": ["s", "s"],
+      "Values": [
+        [0, 10],
+        [10, 20],
+        [20, 30],
+        [30, 40],
+        [40, 50],
+        [50, 60],
+        [60, 80],
+        [80, 100],
+        [100, 120],
+        [120, 150],
+        [150, 180],
+        [180, 210],
+        [210, 240],
+        [240, 270],
+        [270, 300],
+        [300, 360],
+        [360, 420],
+        [420, 480],
+        [480, 540],
+        [540, 600],
+        [600, 720],
+        [720, 840],
+        [840, 960],
+        [960, 1080],
+        [1080, 1200],
+        [1200, 1500],
+        [1500, 1800],
+        [1800, 2100],
+        [2100, 2337],
+        [4521, 4800],
+        [4800, 5100],
+        [5100, 5400]
+      ]
+    }
+  }
+}
