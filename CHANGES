@@ -1,3 +1,7 @@
+4.0.0	2021-05-18
+	
+	- Updated json files according to BIDS v. 1.6.0
+
 3.0.0   2018-09-04
 
 	- Defaced structural MRI and PET images
