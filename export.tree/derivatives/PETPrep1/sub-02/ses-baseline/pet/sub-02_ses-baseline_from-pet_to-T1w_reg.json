@@ -1,0 +1,20 @@
+{
+  "Description": "Registration file to go from PET space to ANAT space",
+  "Sources": [
+    "/derivatives/PETPrep1/sub-02/ses-baseline/pet/sub-02_ses-baseline_desc-mc_mean.nii.gz",
+    "/derivatives/PETPrep1/sub-02/ses-baseline/anat/sub-02_ses-baseline_space-T1w_desc-brain_mask.nii.gz"
+  ],
+  "ReferenceImage": "/derivatives/PETPrep1/sub-02/ses-baseline/anat/sub-02_ses-baseline_space-T1w_desc-brain_mask.nii.gz",
+  "dof": 6,
+  "QC": [
+    "/derivatives/PETPrep1/logs/sub-02/sub-02_ses-baseline_axial_coregPET.png",
+    "/derivatives/PETPrep1/logs/sub-02/sub-02_ses-baseline_axial_coregMR.png",
+    "/derivatives/PETPrep1/logs/sub-02/sub-02_ses-baseline_coronal_coregPET.png",
+    "/derivatives/PETPrep1/logs/sub-02/sub-02_ses-baseline_coronal_coregMR.png",
+    "/derivatives/PETPrep1/logs/sub-02/sub-02_ses-baseline_sagittal_coregPET.png",
+    "/derivatives/PETPrep1/logs/sub-02/sub-02_ses-baseline_sagittal_coregMR.png"
+  ],
+  "SoftwareName": "FreeSurfer-mri_coreg",
+  "SoftwareVersion": "mri_coreg freesurfer dev\n",
+  "CommandLine": "mri_coreg --s sub-02 --mov /derivatives/PETPrep1/sub-02/ses-baseline/pet/sub-02_ses-baseline_desc-mc_mean.nii.gz --reg /derivatives/PETPrep1/sub-02/ses-baseline/pet/sub-02_ses-baseline_from-pet_to-T1w_reg.lta"
+}
