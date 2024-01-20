@@ -1,0 +1,7 @@
+{
+  "Description": "",
+  "Sources": ["/Users/martinnorgaard/Dropbox/Mac/Documents/BIDS/data/ds001420/sub-02/ses-baseline/anat/sub-02_ses-baseline_T1w.nii"],
+  "SoftwareName": "FreeSurfer-recon-all",
+  "SoftwareVersion": "freesurfer-darwin-macOS-dev-20220518-fb22ffc\n",
+  "CommandLine": "recon-all -subjid sub-02 -i /Users/martinnorgaard/Dropbox/Mac/Documents/BIDS/data/ds001420/sub-02/ses-baseline/anat/sub-02_ses-baseline_T1w.nii -all"
+}
